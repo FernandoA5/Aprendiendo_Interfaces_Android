@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Proyectos Android Studio/Proyecto_Diseo_De_Interfaces/app/src/main/res/drawable/user.xml" value="0.32421875" />
         <entry key="..\:/Proyectos Android Studio/Proyecto_Diseo_De_Interfaces/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Proyectos Android Studio/Proyecto_Diseo_De_Interfaces/app/src/main/res/layout/pantallita.xml" value="0.2728494623655914" />
+        <entry key="..\:/Proyectos Android Studio/Proyecto_Diseo_De_Interfaces/app/src/main/res/layout/pantallita.xml" value="0.33" />
       </map>
     </option>
   </component>

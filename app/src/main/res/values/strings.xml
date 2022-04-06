@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Proyecto_Diseño_De_Interfaces</string>
     <string name="pantallita">Pantallita</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login">Login</string>
 </resources>
