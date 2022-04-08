@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420884706659",
+    "project_id": "my-app-learning-81ef9",
+    "storage_bucket": "my-app-learning-81ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420884706659:android:3907b250d7b019cb3ecf56",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_diseo_de_interfaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420884706659-i2jbvs5of27q0id6a27f9iac0m7e7530.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApYP7tEydFCU4bBtIuec746tU6QbXGP3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420884706659-i2jbvs5of27q0id6a27f9iac0m7e7530.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
