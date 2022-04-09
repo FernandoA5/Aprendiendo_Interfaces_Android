@@ -1,5 +1,7 @@
 package com.example.proyecto_diseo_de_interfaces
 
+import android.app.Instrumentation
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -19,7 +21,9 @@ class MainActivity : AppCompatActivity() {
     }
     fun checkMail(){
         if(binding.textBoxUser.text.isNotEmpty()){
-            //COOL
+            val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("INTENT_NAME", binding.textBoxUser.text)
+            startActivity(intent)
         }else{
             showError()
         }

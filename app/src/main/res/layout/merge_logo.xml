@@ -21,5 +21,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/space_top"
         />
-
+    <Space
+        android:id="@+id/space_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagen"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        />
 </merge>

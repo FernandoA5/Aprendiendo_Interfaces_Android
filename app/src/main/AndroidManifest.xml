@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Diseño_De_Interfaces">
         <activity
+            android:name=".RecyclerSH"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
