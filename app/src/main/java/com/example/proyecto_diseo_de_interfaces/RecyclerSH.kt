@@ -2,6 +2,9 @@ package com.example.proyecto_diseo_de_interfaces
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.LinearLayout
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.proyecto_diseo_de_interfaces.adapter.SuperHeroAdapter
 import com.example.proyecto_diseo_de_interfaces.databinding.ActivityRecyclerShBinding
 import com.example.proyecto_diseo_de_interfaces.databinding.ActivityResultBinding
 
@@ -14,5 +17,11 @@ class RecyclerSH : AppCompatActivity() {
         binding.btnBack.setOnClickListener{
             onBackPressed()
         }
+        initRecyclerView()
+    }
+    fun initRecyclerView(){
+        val recyclerView = binding.recyclerView
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = SuperHeroAdapter(SuperHeroProvider.superHeroList)
     }
 }

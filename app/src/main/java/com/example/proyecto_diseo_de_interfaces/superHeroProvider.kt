@@ -1,6 +1,6 @@
 package com.example.proyecto_diseo_de_interfaces
 
-class superHeroProvider {
+class SuperHeroProvider {
     companion object{
         val superHeroList = listOf<SuperHero>(
             SuperHero(
