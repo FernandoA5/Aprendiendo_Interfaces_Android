@@ -5,5 +5,5 @@
     <dimen name="widthLogo">140dp</dimen>
     <dimen name="heightLogo">140dp</dimen>
     <dimen name="margin_default">12dp</dimen>
-
+    <dimen name="titleSuperHero">21sp</dimen>
 </resources>

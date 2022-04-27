@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
-    <ImageView
-        android:id="@+id/imageViewSuperHero"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:background="@color/azul" />
-
-    <TextView
-        android:id="@+id/textViewSuperHero"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/imageViewSuperHero"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Spiderman" />
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp">
+        <ImageView
+            android:id="@+id/imageViewSuperHero"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/azul" />
 
-    <TextView
-        android:id="@+id/textViewRealName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Peter Parker"
-        app:layout_constraintStart_toEndOf="@id/imageViewSuperHero"
-        app:layout_constraintTop_toBottomOf="@id/textViewSuperHero"
+        <TextView
+            android:id="@+id/textViewSuperHero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imageViewSuperHero"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/titleSuperHero"
+            tools:text="Spiderman" />
 
-        />
-    <TextView
-        android:id="@+id/textViewPublisher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:text="Marvel"
-        app:layout_constraintStart_toEndOf="@id/imageViewSuperHero"
-        app:layout_constraintTop_toBottomOf="@id/textViewRealName"
-    />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textViewRealName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Peter Parker"
+            android:textColor="@color/red"
+            app:layout_constraintStart_toEndOf="@id/imageViewSuperHero"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewSuperHero"
+
+            />
+        <TextView
+            android:id="@+id/textViewPublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Marvel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
